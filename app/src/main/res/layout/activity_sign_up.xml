@@ -15,7 +15,7 @@
         android:layout_marginBottom="39dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:hint="Username"
         app:layout_constraintBottom_toTopOf="@+id/editTextSignPassword"
         app:layout_constraintStart_toStartOf="@+id/editTextSignPassword" />
 
@@ -26,7 +26,7 @@
         android:layout_marginStart="74dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:hint="Password"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -39,7 +39,7 @@
         android:layout_marginTop="34dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:hint="Email"
         app:layout_constraintStart_toStartOf="@+id/editTextSignPassword"
         app:layout_constraintTop_toBottomOf="@+id/editTextSignPassword" />
 
